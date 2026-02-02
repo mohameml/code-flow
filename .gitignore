@@ -3,3 +3,5 @@
 **/venv/**
 **/pycache/**
 **/__pycache__/**
+**/codeflow-egg-info/**
+**/*.egg-info/**

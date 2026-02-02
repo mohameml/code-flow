@@ -5,7 +5,7 @@ from dataclasses import asdict
 # from core.runner import Runner
 # Ici j'assume que Runner est accessible directement.
 
-from app.core.core import Runner
+from codeflow.core.runner import Runner
 
 def dump_runresult(result, title: str, max_events: int = 40):
     print("\n" + "=" * 80)
