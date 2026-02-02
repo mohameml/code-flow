@@ -1,0 +1,1347 @@
+{
+  "status": "ok",
+  "error": null,
+  "nodes": [
+    {
+      "id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 1,
+      "args": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…"
+      },
+      "return_event_id": 80,
+      "return_value": "None",
+      "exception": null
+    },
+    {
+      "id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 8,
+      "args": {
+        "i": "3",
+        "capacity": "5"
+      },
+      "return_event_id": 78,
+      "return_value": "7",
+      "exception": null
+    },
+    {
+      "id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 11,
+      "args": {
+        "i": "2",
+        "capacity": "5"
+      },
+      "return_event_id": 70,
+      "return_value": "7",
+      "exception": null
+    },
+    {
+      "id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 14,
+      "args": {
+        "i": "1",
+        "capacity": "5"
+      },
+      "return_event_id": 50,
+      "return_value": "7",
+      "exception": null
+    },
+    {
+      "id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 17,
+      "args": {
+        "i": "0",
+        "capacity": "5"
+      },
+      "return_event_id": 31,
+      "return_value": "3",
+      "exception": null
+    },
+    {
+      "id": 6,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 20,
+      "args": {
+        "i": "-1",
+        "capacity": "5"
+      },
+      "return_event_id": 23,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 7,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 26,
+      "args": {
+        "i": "-1",
+        "capacity": "3"
+      },
+      "return_event_id": 29,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 34,
+      "args": {
+        "i": "0",
+        "capacity": "2"
+      },
+      "return_event_id": 48,
+      "return_value": "3",
+      "exception": null
+    },
+    {
+      "id": 9,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 37,
+      "args": {
+        "i": "-1",
+        "capacity": "2"
+      },
+      "return_event_id": 40,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 10,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 43,
+      "args": {
+        "i": "-1",
+        "capacity": "0"
+      },
+      "return_event_id": 46,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 53,
+      "args": {
+        "i": "1",
+        "capacity": "1"
+      },
+      "return_event_id": 68,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 56,
+      "args": {
+        "i": "0",
+        "capacity": "1"
+      },
+      "return_event_id": 65,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 13,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 59,
+      "args": {
+        "i": "-1",
+        "capacity": "1"
+      },
+      "return_event_id": 62,
+      "return_value": "0",
+      "exception": null
+    },
+    {
+      "id": 14,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "call_event_id": 73,
+      "args": {
+        "i": "2",
+        "capacity": "0"
+      },
+      "return_event_id": 76,
+      "return_value": "0",
+      "exception": null
+    }
+  ],
+  "edges": [
+    {
+      "parent_id": 1,
+      "child_id": 2
+    },
+    {
+      "parent_id": 2,
+      "child_id": 3
+    },
+    {
+      "parent_id": 3,
+      "child_id": 4
+    },
+    {
+      "parent_id": 4,
+      "child_id": 5
+    },
+    {
+      "parent_id": 5,
+      "child_id": 6
+    },
+    {
+      "parent_id": 5,
+      "child_id": 7
+    },
+    {
+      "parent_id": 4,
+      "child_id": 8
+    },
+    {
+      "parent_id": 8,
+      "child_id": 9
+    },
+    {
+      "parent_id": 8,
+      "child_id": 10
+    },
+    {
+      "parent_id": 3,
+      "child_id": 11
+    },
+    {
+      "parent_id": 11,
+      "child_id": 12
+    },
+    {
+      "parent_id": 12,
+      "child_id": 13
+    },
+    {
+      "parent_id": 2,
+      "child_id": 14
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "call",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 1,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…"
+      },
+      "arg": null
+    },
+    {
+      "id": 2,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 3,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…"
+      },
+      "arg": null
+    },
+    {
+      "id": 3,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 4,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]"
+      },
+      "arg": null
+    },
+    {
+      "id": 4,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 5,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]"
+      },
+      "arg": null
+    },
+    {
+      "id": 5,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]",
+        "W": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 6,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 24,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]",
+        "W": "5",
+        "knap": "<function knap at 0x74434ffb00d0>"
+      },
+      "arg": null
+    },
+    {
+      "id": 7,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 25,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]",
+        "W": "5",
+        "knap": "<function knap at 0x74434ffb00d0>",
+        "n": "4"
+      },
+      "arg": null
+    },
+    {
+      "id": 8,
+      "type": "call",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "3",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 9,
+      "type": "line",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "3",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 10,
+      "type": "line",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "3",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 11,
+      "type": "call",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "2",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 12,
+      "type": "line",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "2",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 13,
+      "type": "line",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "2",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 14,
+      "type": "call",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 15,
+      "type": "line",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 16,
+      "type": "line",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 17,
+      "type": "call",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "0",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 18,
+      "type": "line",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "0",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 19,
+      "type": "line",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "0",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 20,
+      "type": "call",
+      "node_id": 6,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "-1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 21,
+      "type": "line",
+      "node_id": 6,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "-1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 22,
+      "type": "line",
+      "node_id": 6,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "5"
+      },
+      "arg": null
+    },
+    {
+      "id": 23,
+      "type": "return",
+      "node_id": 6,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "5"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 24,
+      "type": "line",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "0",
+        "capacity": "5",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 25,
+      "type": "line",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 20,
+      "locals": {
+        "i": "0",
+        "capacity": "5",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 26,
+      "type": "call",
+      "node_id": 7,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "-1",
+        "capacity": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 27,
+      "type": "line",
+      "node_id": 7,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "-1",
+        "capacity": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 28,
+      "type": "line",
+      "node_id": 7,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 29,
+      "type": "return",
+      "node_id": 7,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "3"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 30,
+      "type": "line",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "5",
+        "best": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 31,
+      "type": "return",
+      "node_id": 5,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "5",
+        "best": "3"
+      },
+      "arg": "3"
+    },
+    {
+      "id": 32,
+      "type": "line",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "1",
+        "capacity": "5",
+        "best": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 33,
+      "type": "line",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 20,
+      "locals": {
+        "i": "1",
+        "capacity": "5",
+        "best": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 34,
+      "type": "call",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "0",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 35,
+      "type": "line",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "0",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 36,
+      "type": "line",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "0",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 37,
+      "type": "call",
+      "node_id": 9,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "-1",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 38,
+      "type": "line",
+      "node_id": 9,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "-1",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 39,
+      "type": "line",
+      "node_id": 9,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "2"
+      },
+      "arg": null
+    },
+    {
+      "id": 40,
+      "type": "return",
+      "node_id": 9,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "2"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 41,
+      "type": "line",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "0",
+        "capacity": "2",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 42,
+      "type": "line",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 20,
+      "locals": {
+        "i": "0",
+        "capacity": "2",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 43,
+      "type": "call",
+      "node_id": 10,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "-1",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 44,
+      "type": "line",
+      "node_id": 10,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "-1",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 45,
+      "type": "line",
+      "node_id": 10,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 46,
+      "type": "return",
+      "node_id": 10,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "0"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 47,
+      "type": "line",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "2",
+        "best": "3"
+      },
+      "arg": null
+    },
+    {
+      "id": 48,
+      "type": "return",
+      "node_id": 8,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "2",
+        "best": "3"
+      },
+      "arg": "3"
+    },
+    {
+      "id": 49,
+      "type": "line",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "1",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 50,
+      "type": "return",
+      "node_id": 4,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "1",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": "7"
+    },
+    {
+      "id": 51,
+      "type": "line",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "2",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 52,
+      "type": "line",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 20,
+      "locals": {
+        "i": "2",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 53,
+      "type": "call",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 54,
+      "type": "line",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 55,
+      "type": "line",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 56,
+      "type": "call",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "0",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 57,
+      "type": "line",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "0",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 58,
+      "type": "line",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 16,
+      "locals": {
+        "i": "0",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 59,
+      "type": "call",
+      "node_id": 13,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "-1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 60,
+      "type": "line",
+      "node_id": 13,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "-1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 61,
+      "type": "line",
+      "node_id": 13,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "1"
+      },
+      "arg": null
+    },
+    {
+      "id": 62,
+      "type": "return",
+      "node_id": 13,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "-1",
+        "capacity": "1"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 63,
+      "type": "line",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "0",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 64,
+      "type": "line",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 65,
+      "type": "return",
+      "node_id": 12,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "0",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 66,
+      "type": "line",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "1",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 67,
+      "type": "line",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "1",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 68,
+      "type": "return",
+      "node_id": 11,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "1",
+        "capacity": "1",
+        "best": "0"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 69,
+      "type": "line",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "2",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 70,
+      "type": "return",
+      "node_id": 3,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "2",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": "7"
+    },
+    {
+      "id": 71,
+      "type": "line",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 19,
+      "locals": {
+        "i": "3",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 72,
+      "type": "line",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 20,
+      "locals": {
+        "i": "3",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 73,
+      "type": "call",
+      "node_id": 14,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 7,
+      "locals": {
+        "i": "2",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 74,
+      "type": "line",
+      "node_id": 14,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 12,
+      "locals": {
+        "i": "2",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 75,
+      "type": "line",
+      "node_id": 14,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "2",
+        "capacity": "0"
+      },
+      "arg": null
+    },
+    {
+      "id": 76,
+      "type": "return",
+      "node_id": 14,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 13,
+      "locals": {
+        "i": "2",
+        "capacity": "0"
+      },
+      "arg": "0"
+    },
+    {
+      "id": 77,
+      "type": "line",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "3",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 78,
+      "type": "return",
+      "node_id": 2,
+      "func_name": "knap",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 22,
+      "locals": {
+        "i": "3",
+        "capacity": "5",
+        "best": "7"
+      },
+      "arg": "7"
+    },
+    {
+      "id": 79,
+      "type": "line",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 26,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]",
+        "W": "5",
+        "knap": "<function knap at 0x74434ffb00d0>",
+        "n": "4",
+        "ans": "7"
+      },
+      "arg": null
+    },
+    {
+      "id": 80,
+      "type": "return",
+      "node_id": 1,
+      "func_name": "<module>",
+      "filename": "/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py",
+      "lineno": 26,
+      "locals": {
+        "__name__": "'__main__'",
+        "__file__": "'/home/mohameml/Desktop/projects/code-flow/examples/knapsack.py'",
+        "__builtins__": "{'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\", '__package__': '', '__loader__':…",
+        "values": "[3, 4, 5, 6]",
+        "weights": "[2, 3, 4, 5]",
+        "W": "5",
+        "knap": "<function knap at 0x74434ffb00d0>",
+        "n": "4",
+        "ans": "7"
+      },
+      "arg": "None"
+    }
+  ]
+}

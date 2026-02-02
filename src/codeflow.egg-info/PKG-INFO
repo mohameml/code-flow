@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: codeflow
+Version: 0.1.0
+Summary: Python code execution tracer and call graph visualizer
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: graphviz>=0.21
+
+# code-flow

@@ -1,0 +1,144 @@
+{
+    "status": "ok",
+    "error": null,
+    "nodes": [
+        {
+            "id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "call_event_id": 1,
+            "args": {},
+            "return_event_id": 9,
+            "return_value": "None",
+            "exception": null
+        },
+        {
+            "id": 2,
+            "func_name": "f",
+            "filename": "<user_code>",
+            "call_event_id": 5,
+            "args": {
+                "n": "2"
+            },
+            "return_event_id": 8,
+            "return_value": "3",
+            "exception": null
+        }
+    ],
+    "edges": [
+        {
+            "parent_id": 1,
+            "child_id": 2
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "type": "call",
+            "node_id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "lineno": 1,
+            "locals": {},
+            "arg": null
+        },
+        {
+            "id": 2,
+            "type": "line",
+            "node_id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "lineno": 2,
+            "locals": {},
+            "arg": null
+        },
+        {
+            "id": 3,
+            "type": "line",
+            "node_id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "lineno": 3,
+            "locals": {
+                "a": "1"
+            },
+            "arg": null
+        },
+        {
+            "id": 4,
+            "type": "line",
+            "node_id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "lineno": 8,
+            "locals": {
+                "a": "1",
+                "f": "<function f at 0x7d895801c940>"
+            },
+            "arg": null
+        },
+        {
+            "id": 5,
+            "type": "call",
+            "node_id": 2,
+            "func_name": "f",
+            "filename": "<user_code>",
+            "lineno": 3,
+            "locals": {
+                "n": "2"
+            },
+            "arg": null
+        },
+        {
+            "id": 6,
+            "type": "line",
+            "node_id": 2,
+            "func_name": "f",
+            "filename": "<user_code>",
+            "lineno": 4,
+            "locals": {
+                "n": "2"
+            },
+            "arg": null
+        },
+        {
+            "id": 7,
+            "type": "line",
+            "node_id": 2,
+            "func_name": "f",
+            "filename": "<user_code>",
+            "lineno": 5,
+            "locals": {
+                "n": "2",
+                "x": "3"
+            },
+            "arg": null
+        },
+        {
+            "id": 8,
+            "type": "return",
+            "node_id": 2,
+            "func_name": "f",
+            "filename": "<user_code>",
+            "lineno": 5,
+            "locals": {
+                "n": "2",
+                "x": "3"
+            },
+            "arg": "3"
+        },
+        {
+            "id": 9,
+            "type": "return",
+            "node_id": 1,
+            "func_name": "<module>",
+            "filename": "<user_code>",
+            "lineno": 8,
+            "locals": {
+                "a": "1",
+                "f": "<function f at 0x7d895801c940>"
+            },
+            "arg": "None"
+        }
+    ]
+}
