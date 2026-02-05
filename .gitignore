@@ -5,3 +5,5 @@
 **/__pycache__/**
 **/codeflow-egg-info/**
 **/*.egg-info/**
+experiments/
+src/codeflow.egg-info
