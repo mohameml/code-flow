@@ -129,6 +129,7 @@ class CliInput:
             Path object for the JSON output, or None if not specified
         """
         return Path(self.output_json) if self.output_json else None
+    
 
 
 class OutputStatus(str, Enum):

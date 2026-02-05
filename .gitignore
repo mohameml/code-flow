@@ -7,3 +7,4 @@
 **/*.egg-info/**
 experiments/
 src/codeflow.egg-info
+.pytest_cache
