@@ -6,3 +6,7 @@
     ...
 - discuss the design 
 - write the code for each steps 
+- correct the Manager Error : there is a lot of erros : 
+    - like when a user give a file that do not exit : it's user error 
+    - each Exception must be captured 
+    - we may create sum Personal class for Exception : CodeFlowException , UserCodeException ....etc 

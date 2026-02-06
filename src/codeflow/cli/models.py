@@ -197,10 +197,10 @@ class CliOutput:
     """
     
     status: OutputStatus
-    message: str
+    message: str # TODO : what is the purpose of this message if we already have a ErrorFormatter ? 
     png_path: Optional[str] = None
     json_path: Optional[str] = None
-    error_details: Optional[str] = None
+    error_details: Optional[str] = None # and how we can catch the trac back in user code and pass it to UI ???
     
     def __post_init__(self):
         """
